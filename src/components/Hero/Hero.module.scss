@@ -68,7 +68,8 @@
         line-height: 116px;
     }
 
-    .hero::before{
+    .hero::before {
+        top: -25px;
         width: 57.67%;
         height: 920px;
     }
@@ -83,9 +84,9 @@
     }
 
     .hero::before{
-        top: 150px;
+        top: 122px;
         width: 60.67%;
-        height: 670px;
+        height: 720px;
     }
 
     .heroDescr{
@@ -127,9 +128,9 @@
     }
 
     .hero::before {
-        top: 216px;
-        width: 63.67%;
-        height: 513px;
+        top: 191px;
+    width: 63.67%;
+    height: 589px;
     }
 
     .smallTitle{
@@ -174,16 +175,11 @@
         font-size: 10px;
     }
 
-    .Hero_hero__cxOsL::before {
-        top: 351px;
-        width: 70.67%;
-        height: 429px;
-    }
 
     .hero::before {
-        top: 324px;
+        top: 304px;
         width: 71.67%;
-        height: 465px;
+        height: 491px;
     }
 
 }
