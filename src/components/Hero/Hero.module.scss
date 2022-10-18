@@ -1,0 +1,222 @@
+.hero{
+    padding-top: 185px;
+    padding-left: 64px;
+    padding-bottom: 96px;
+    background-image: url('../../../public/img/bg (1).png');
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.hero::before{
+    position: absolute;
+    width: 56.67%;
+    height: 984px;
+    content: '';
+    background-image: url('../../../public/img/Mask Group.png');
+    top:0;
+    right: 0;
+    background-size: cover;
+    z-index: -1;
+    background-repeat: no-repeat;
+}
+
+.heroTitle{
+    max-width: 1008px;
+    font-weight: 700;
+    font-size: 144px;
+    line-height: 152px;
+    margin: 0;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.heroDescr{
+    max-width: 672px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 109px;
+}
+
+.smallTitle{
+    margin: 0;
+    padding: 0;
+    max-width: 416px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43px;
+    margin-bottom: 7px;
+}
+
+.smallDescr{
+    margin: 0;
+    padding: 0;
+    max-width: 416px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+
+@media (max-width:1240px) {
+    .heroTitle{
+        font-weight: 700;
+        font-size: 100px;
+        line-height: 116px;
+    }
+
+    .hero::before{
+        width: 57.67%;
+        height: 920px;
+    }
+}
+
+
+@media (max-width:992px) {
+    .heroTitle{
+        font-weight: 700;
+        font-size: 80px;
+        line-height: 96px;
+    }
+
+    .hero::before{
+        top: 150px;
+        width: 60.67%;
+        height: 670px;
+    }
+
+    .heroDescr{
+        max-width: 480px;
+        font-size: 18px;
+    }
+
+    .smallTitle{
+        max-width: 416px;
+        font-size: 28px;
+    }
+
+
+    .smallDescr{
+        max-width: 324px;
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width:768px) {
+    .hero {
+        padding-top: 229px;
+        padding-left: 25px;
+        padding-bottom: 70px;
+    }
+
+    .heroTitle{
+        font-size: 60px;
+        line-height: 96px;
+        margin-bottom: 5px;
+        max-width: 427px;
+        margin-right: 0;
+    }
+
+    .heroDescr{
+        max-width: 352px;
+        font-size: 14px;
+    }
+
+    .hero::before {
+        top: 216px;
+        width: 63.67%;
+        height: 513px;
+    }
+
+    .smallTitle{
+        max-width: 210px;
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .smallDescr{
+        max-width: 210px;
+        font-size: 12px;
+    }
+
+}
+
+@media (max-width:568px) {
+    .hero{
+        padding-top: 397px;
+    }
+
+    .heroTitle{
+        font-size: 40px;
+        line-height: 46px;
+        max-width: 340px;
+
+    }
+
+    .heroDescr{
+        max-width: 280px;
+        font-size: 10px;
+        margin-bottom: 56px;
+    }
+
+    .smallTitle{
+        max-width: 210px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .smallDescr{
+        max-width: 200px;
+        font-size: 10px;
+    }
+
+    .Hero_hero__cxOsL::before {
+        top: 351px;
+        width: 70.67%;
+        height: 429px;
+    }
+
+    .hero::before {
+        top: 324px;
+        width: 71.67%;
+        height: 465px;
+    }
+
+}
+
+
+@media (max-width:360px) {
+    .heroTitle{
+        font-size: 24px;
+        line-height: 32px;
+        max-width: 185px;
+    }
+
+    .heroDescr{
+        max-width: 185px;
+        font-size: 10px;
+        line-height: 16px;
+    }
+
+    .smallTitle{
+        max-width: 185px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .smallDescr{
+        max-width: 185px;
+        font-size: 10px;
+        line-height: 16px;
+    }
+
+    .hero::before {
+        top: 421px;
+        width: 65.67%;
+        height: 303px;
+    }
+}
