@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/test-tg/static/css/main.a1bff176.css",
+    "main.js": "/test-tg/static/js/main.4e001be9.js",
+    "static/media/Mask Group.png": "/test-tg/static/media/Mask Group.c1b1fde0eaa11510f7f8.png",
+    "static/media/bg (1).png": "/test-tg/static/media/bg (1).305d98cd734fe0bde162.png",
+    "index.html": "/test-tg/index.html",
+    "main.a1bff176.css.map": "/test-tg/static/css/main.a1bff176.css.map",
+    "main.4e001be9.js.map": "/test-tg/static/js/main.4e001be9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a1bff176.css",
+    "static/js/main.4e001be9.js"
+  ]
+}
